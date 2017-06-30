@@ -37,7 +37,7 @@
     /*width: 200px;*/
 }
 .btn-seatch{
-    background: transparent url(/templates/pics/search-icon.png);
+    background: transparent url(/templates/templates/pics/search-icon.png);
     background-position: center;
     background-size: cover;
     cursor: pointer;

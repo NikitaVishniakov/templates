@@ -10,11 +10,11 @@ $(document).ready(function(){
         $('.menu').addClass('menu-hidden');
         $('.mobile-open .burger-wrapper').removeClass('open');
     });
-    if($(window).width() < 900) {
+    if($(window).width() < 1030) {
         $('.menu').addClass('menu-hidden');
     }
     $('.menu').click(function () {
-        if($(window).width() < 900) {
+        if($(window).width() < 1030) {
             // $('.menu').addClass('menu-hidden');
             // $('.mobile-open .burger-wrapper').removeClass('open');
         }
@@ -26,7 +26,7 @@ $(document).ready(function(){
         $('.user-menu').addClass('menu-hidden');
     })
     $(window).resize(function() {
-        if($(window).width() > 900){
+        if($(window).width() > 1030){
             $('.menu').removeClass('menu-hidden');
             $('.mobile-open .burger-wrapper').addClass('open');
         }

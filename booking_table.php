@@ -9,7 +9,7 @@
             <div class="digest-block today-info">
                 <div class="row">
                     Номер 1:
-                    <span class="guest-status">
+                    <span class="guest-status live-in">
                         <span class="text">проживает</span>
                         <span class="icon"><i class="fa fa-bed" aria-hidden="true"></i></span>
                     </span>
@@ -19,7 +19,7 @@
                     </span>
                 </div>
                 <div class="row">Номер 2:
-                    <span class="guest-status">
+                    <span class="guest-status check-in">
                         <span class="text">заезд</span>
                         <span class="icon"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
                     </span>
@@ -29,7 +29,7 @@
                     </span>
                 </div>
                 <div class="row">Номер 2:
-                    <span class="guest-status">
+                    <span class="guest-status check-out">
                         <span class="text">выезд</span>
                         <span class="icon"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
                     </span>
@@ -38,7 +38,7 @@
                     </span>
                 </div>
                 <div class="row is-late">Номер 2:
-                    <span class="guest-status">
+                    <span class="guest-status check-in">
                         <span class="text">заезд</span>
                         <span class="icon"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
                     </span>
@@ -48,7 +48,7 @@
                     </span>
                 </div>
                 <div class="row">Номер 2:
-                    <span class="guest-status">
+                    <span class="guest-status check-out">
                         <span class="text">выезд</span>
                         <span class="icon"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
                     </span>
@@ -58,7 +58,20 @@
                     </span>
                 </div>
             </div>
-            <div class="digest-block prepayments"></div>
+            <div class="digest-block prepayments">
+                <div class="row">
+                    <span class="guest-status">
+                        <span class="text">Предавторизация</span>
+                        <span class="icon">
+                            <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        </span>
+                    </span>
+                    <span class="booked_pole">Toli Patrancus (заезд 03.07.17)</span>
+                    <span class="guest-action">
+                        <a class="btn btn-small btn-default">Списать предоплату</a>
+                    </span>
+                </div>
+            </div>
         </div>
         <div class="add-booking">
             <a class="btn btn-big btn-blue">Добавить бронирование</a>
@@ -82,7 +95,7 @@
                         </div>
                 </div>
                 <div class="btn-wrapper">
-                    <input type="submit" name="" value="Показать" class="btn btn-small btn-green">
+                    <input type="submit" name="" value="Показать" class="btn btn-small btn-green-no-bg">
                 </div>
             </form>
             <form class="form-vertical search-form">

@@ -30,6 +30,15 @@
 .btn-green:hover{
     background-color: #317256;
 }
+.btn-green-no-bg{
+    color: #317256;
+    background: #fff;
+    border: 1px solid #317256;
+}
+.btn-green-no-bg:hover{
+    background-color: #317256;
+    color: #fff;
+}
 .btn-blue{
     background-color: #1b85b8;
     /*border-color: #03396c;*/
@@ -38,13 +47,14 @@
     background-color: #03396c;
 }
 .btn-default{
-    border: 1px solid #6b7676;
-    color: 	#6b7676;
+    border: 1px solid #1b85b8;
+    background: #fff;
+    color: 	#1b85b8;
 }
 .btn-default:hover{
-    border-color: #bbbaba;
-    background-color: #e6e6e6;
-    /*color: #bbbaba;*/
+/*    border-color: #73eaaf;*/
+    background-color: #1b85b8;
+    color: #fff;
 }
 .btn-red{
     background-color: #ee5c5c;

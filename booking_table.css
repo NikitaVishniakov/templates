@@ -26,6 +26,9 @@
     /*background: rgba(140, 252, 96, 0.5);*/
     border: 1px solid #1b85b8;
 }
+.prepayments .guest-status  .text{
+    width: 150px;
+}
 .add-booking{
     width: 100%;
     text-align: right;
@@ -50,6 +53,12 @@
     margin-right: 20px;
     float: left;
 }
+.check-in .icon .fa{
+    color: #78bda9;
+}
+.check-out .icon .fa{
+    color: #f07f13;
+}
 .btn-wrapper{
     float: left;
     margin-top: 25px;
@@ -58,7 +67,10 @@
     float: right;
 }
 
-.guest-status{
+.guest-status .icon{
+    margin-right: 10px;
+}
+.guest-status .text{
     width: 120px;
     display: inline-block;
     text-align: center;
@@ -80,8 +92,17 @@
 .booking-table{
     border-collapse: collapse;
 }
-.today-info .icon{
+.today-info .icon, .prepayments .icon{
     margin-left: 5px;
+}
+.prepayments .row .booked_pole{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+.prepayments .row{
+    display: flex;
+    flex-wrap: wrap;
 }
 @media (max-width: 1200px) {
     .digest-block{
@@ -91,6 +112,9 @@
     }
 }
 @media (max-width: 800px) {
+    .prepayments .row{
+        display: block;
+    }
     .today-info .text{
         display: none;
     }
@@ -98,7 +122,7 @@
         margin: 0;
     }
     .guest-status{
-        width: 40px;
+/*        width: 0px;*/
     }
     .digest-block{
         width: 90%;
@@ -142,12 +166,24 @@
         background-color: #fff;
         z-index: 10000;
     }
-    .today-info .row{
+    .today-info .row, .prepayments .row{
         text-align: center;
         border-bottom: 1px solid gainsboro;
         height: 90px;
     }
-    .today-info .row .guest-action{
+    .today-info .row{
+        height: 90px;
+    }
+    .prepayments .row{
+         height: 120px;
+    }
+    .today-info .row .guest-action, .prepayments .row .guest-action{
+        margin-top: 15px;
+        display: inline-block;
+        width: 100%;
+    }
+    .prepayments .row .booked_pole, .prepayments .row .guest-action{
+        margin-top: 5px;
         display: inline-block;
         width: 100%;
     }

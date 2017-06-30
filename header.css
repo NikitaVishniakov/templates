@@ -115,6 +115,7 @@ nav ul li:hover .dropdown{
     position: absolute;
     border: 1px solid #1b85b8;
     padding: 15px;
+    top: 20px;
     right: 10px;
     height: 200px;
     border-radius: 4px;
@@ -169,7 +170,7 @@ nav .search-form{
         display: none;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 1030px) {
     nav .menu{
         background-color: #499dc6;
         position: absolute;

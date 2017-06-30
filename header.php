@@ -70,7 +70,7 @@
                 </div>
             </span>
             <div class="messenger">
-                <i class="fa fa-commenting-o fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-bell-o fa-2x" aria-hidden="true"></i>
                 <span class="msg-cnt">0</span>
             </div>
             <div class="auth-user">
