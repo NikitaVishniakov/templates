@@ -1,0 +1,55 @@
+.input{
+    text-indent: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #bbbaba;
+    padding: 0 5px;
+    background-color: #fff;
+    font-size: 16px;
+    height: 32px;
+    display: inline-block;
+    width: 200px;
+}
+.select{
+    height: 34px;
+}
+.form{
+    width: 450px;
+}
+.form-horizontal .label,.form-vertical .input-wrapper{
+    width: 50%;
+    float: left;
+    line-height: 34px;
+}
+.form-vertical .label,.form-vertical .input-wrapper{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.form-vertical .label{
+    margin-bottom: 5px;
+}
+.input-wrapper{
+    position: relative;
+}
+.input-search{
+    padding-right: 30px;
+    /*width: 200px;*/
+}
+.btn-seatch{
+    background: transparent url(/templates/pics/search-icon.png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    width: 30px;
+    border: none;
+    height: 30px;
+    outline: none;
+}
+.search-pad{
+    position: absolute;
+    right: 3px;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,159 @@
+.main-container{
+    margin: 20px;
+}
+.digest{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    vertical-align: top;
+}
+.digest-block{
+    border-radius: 10px;
+    padding: 10px 0;
+    min-height: 100px;
+    display: inline-block;
+    width: 45%;
+}
+.today{
+    width: 100%;
+    font-size: 18px;
+}
+.today-info{
+    background: rgba(140, 252, 96, 0.2);
+    border: 1px solid #73eaaf;
+}
+.prepayments{
+    /*background: rgba(140, 252, 96, 0.5);*/
+    border: 1px solid #1b85b8;
+}
+.add-booking{
+    width: 100%;
+    text-align: right;
+    padding: 15px;
+}
+.filter{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 5px 15px 15px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    /*border: 1px solid #1b85b8;*/
+}
+.date-wrapper, .period-wrapper{
+    width: 200px;
+    margin-right: 20px;
+    float: left;
+}
+.search-wrapper{
+    width: 200px;
+    margin-right: 20px;
+    float: left;
+}
+.btn-wrapper{
+    float: left;
+    margin-top: 25px;
+}
+.search-form{
+    float: right;
+}
+
+.guest-status{
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+}
+.is-late{
+    background-color: rgba(238,92,92, 0.7);
+}
+.guest-debt{
+    font-weight: bold;
+    color: #ee5c5c;
+}
+.guest-action{
+    padding-left: 10px;
+}
+.guest-action .fa-check{
+    color: #5cb85c;
+}
+.booking-table{
+    border-collapse: collapse;
+}
+.today-info .icon{
+    margin-left: 5px;
+}
+@media (max-width: 1200px) {
+    .digest-block{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 800px) {
+    .today-info .text{
+        display: none;
+    }
+    .today-info .icon{
+        margin: 0;
+    }
+    .guest-status{
+        width: 40px;
+    }
+    .digest-block{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .add-booking .btn{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .date-wrapper, .period-wrapper, .search-wrapper{
+        width: 100%;
+        margin-right: 0px;
+        float: left;
+    }
+    .search-form, .form-filter-date{
+        float: left;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .date-wrapper .input, .period-wrapper .input, .search-wrapper .input{
+        width: 100%;
+    }
+    .btn-wrapper{
+        float: left;
+        margin-top: 5px;
+        width: 100%;
+    }
+    .btn-wrapper .btn{
+        width: 100%;
+    }
+
+    .header{
+        position: sticky;
+        width: 100%;
+        top: 0;
+        background-color: #fff;
+        z-index: 10000;
+    }
+    .today-info .row{
+        text-align: center;
+        border-bottom: 1px solid gainsboro;
+        height: 90px;
+    }
+    .today-info .row .guest-action{
+        display: inline-block;
+        width: 100%;
+    }
+}
+@media (max-width: 900px) {
+    .filter .search-form{
+        display: none;
+    }
+}

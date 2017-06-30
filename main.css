@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+html, body, *{
+    margin: 0;
+    box-sizing:border-box;
+    padding: 0;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #586069;
+}
+a{
+    color: #1b85b8;
+}
+.booked_pole{
+    font-weight: bold;
+    cursor: pointer;
+}
+.booked_pole:hover{
+    color: #1b85b8;
+}
+.clear{
+    clear: both;
+}
+.parent-width{
+    width: 100%;
+}
+.row{
+    width: 100%;
+    padding: 10px 15px;
+}
+.line{
+    width: 100%;
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+h4, h5, h6, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pad-15{
+    padding: 15px;
+}
